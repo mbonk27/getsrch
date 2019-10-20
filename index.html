@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title> Data Mahasiswa </title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body class ='bg-primary'>
+<h1 class = 'text-white'><center> Data Mahasiswa Universitas Gunadarma </center></h1>
+ <table class = 'table table-bordered text-white' id='tabelinput'>
+                        <tr bgcolor=gray>
+                            <td align=center>NPM</td>
+                            <td align=center>NAMA LENGKAP</td>
+							<td align=center>TGL. LAHIR</td>
+                        </tr>
+                        <tr>
+</tr>
+</table>
+<br>
+
+<pre class = 'text-white pre-con'>List</pre>
+  <ul class='text-white list-control'>
+	<li >Reza Rahmat Syah</li>
+    <li>Santoso</li>
+	</ul>
+<pre class='text-white pre-con'>List Number</pre>
+  <ul class='text-white list-control'>
+  <li>0895334471377</li>
+   <li>081310627798</li>
+  <li>087888773388</li>
+	</ul>
+	<br>
+<form name='biodata' method='post' action='index.html'>
+<pre class ='form-control' >
+NPM     	: <input type='text' name='npm'><p id='val_npm'></p>Nama    	: <input type='text' name='nama' ><p id='val_nama'></p>Tgl Lahir	: <input type='date' name='tgllahir' ><p id='val_tgl'></p>
+<input class='btn text-white-50' type='button' onClick='terimainput()' value='Simpan'> <input class ='btn text-white-50' type='reset' value='Ulangi'></pre>
+</form>
+</body>
+</html>
